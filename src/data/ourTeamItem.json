@@ -1,0 +1,47 @@
+[
+    {
+        "name":"Sargis Grigor",
+        "position":"Data analyst",
+        "image":"team_1.png"
+    },
+    {
+        "name":"Bagrat Leo",
+        "position":"Data engineer",
+        "image":"team_2.png"
+    },
+    {
+        "name":"Gor Sargis",
+        "position":"Data analyst",
+        "image":"team_3.png"
+    },
+    {
+        "name":"Maral Mari",
+        "position":"Data analyst",
+        "image":"team_4.png"
+    },
+    {
+        "name":"Hakob Jirair",
+        "position":"Data engineer",
+        "image":"team_5.png"
+    },
+    {
+        "name":"Eva Vosgi",
+        "position":"Data scientist",
+        "image":"team_6.png"
+    },
+    {
+        "name":"Kohar Marine",
+        "position":"Data scientist",
+        "image":"team_7.png"
+    },
+    {
+        "name":"Ararat Ohannes",
+        "position":"Data analyst",
+        "image":"team_8.png"
+    },
+    {
+        "name":"Eduard Vosgi",
+        "position":"Data scientist",
+        "image":"team_9.png"
+    }
+]

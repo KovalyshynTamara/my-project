@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?999on6');
+  src:  url('fonts/icomoon.eot?999on6#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?999on6') format('truetype'),
+    url('fonts/icomoon.woff?999on6') format('woff'),
+    url('fonts/icomoon.svg?999on6#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bot:before {
+  content: "\e914";
+  color: #185cff;
+}
+.icon-data_area:before {
+  content: "\e915";
+  color: #185cff;
+}
+.icon-book:before {
+  content: "\e90e";
+  color: #185cff;
+}
+.icon-calendar:before {
+  content: "\e90f";
+  color: #185cff;
+}
+.icon-clipboard:before {
+  content: "\e910";
+  color: #185cff;
+}
+.icon-data_pie:before {
+  content: "\e911";
+  color: #185cff;
+}
+.icon-database:before {
+  content: "\e912";
+  color: #185cff;
+}
+.icon-whisker:before {
+  content: "\e913";
+  color: #185cff;
+}
+.icon-arrow_right:before {
+  content: "\e90d";
+  color: #185cff;
+}
+.icon-checkmark:before {
+  content: "\e90c";
+  color: #185cff;
+}
+.icon-be:before {
+  content: "\e900";
+  color: #f1f6fa;
+}
+.icon-brain:before {
+  content: "\e901";
+  color: #185cff;
+}
+.icon-call:before {
+  content: "\e902";
+  color: #185cff;
+}
+.icon-dr:before {
+  content: "\e903";
+  color: #f1f6fa;
+}
+.icon-fb:before {
+  content: "\e904";
+  color: #f1f6fa;
+}
+.icon-key:before {
+  content: "\e905";
+  color: #185cff;
+}
+.icon-li:before {
+  content: "\e906";
+  color: #f1f6fa;
+}
+.icon-location:before {
+  content: "\e907";
+  color: #185cff;
+}
+.icon-mail:before {
+  content: "\e908";
+  color: #185cff;
+}
+.icon-trending:before {
+  content: "\e909";
+  color: #185cff;
+}
+.icon-tw:before {
+  content: "\e90a";
+  color: #f1f6fa;
+}
+.icon-you:before {
+  content: "\e90b";
+  color: #f1f6fa;
+}

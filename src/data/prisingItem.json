@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Starter",
+        "price":"Free",
+        "date":"",
+        "text":"Trial plan for starters",
+        "one":"For small teams – 5 users",
+        "two":"Community support",
+        "tree":"Individual data – 20GB",
+        "four":"",
+        "check":""    
+
+        
+    },
+    {
+        "name":"Professional",
+        "price":"20$",
+        "date":"per editor/month",
+        "text":"For users who want more",
+        "one":"For small teams – 15 users",
+        "two":"Individual support",
+        "tree":"Individual data – 60GB",
+        "four":"",
+         "check":""  
+        
+    },
+    {
+        "name":"Organization",
+        "price":"50$",
+        "date":"per editor/month",
+        "text":"The best solution for Pro",
+        "one":"For big teams – unlimited",
+        "two":"Individual support",
+        "tree":"Individual data – unlimited",
+        "four":"Data history",
+         "check":"checkmark"       
+    }
+]

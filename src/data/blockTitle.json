@@ -1,0 +1,61 @@
+{
+    "about": {
+        "title":"About our company",
+        "sub_title":"Who we are",
+        "text":"The place to store various data that you can access at any time through the internet and where you can carry it.This very flexible storage area has a high level of security.",
+        "sub_title2":"Our mission",
+        "text2":"To continue our dedication to providing a unique range of products, exceptional customer service, and great experiences.",
+        "sub_text":"We work with 15 years of experience and provide services that guarantee your success"
+    },
+    "service": {
+        "subtitle":"Embedding analytics into your enterprise software application can bring huge benefits to your product.",
+        "title":"Data Analytics Services"
+    },
+    "team": {
+        "subtitle":"Get to know us closer",
+        "title":"Our Team",
+        "text":"Everyone says it, but in our case it’s true: our team is the secret to our success. Each of our employees is amazing in their own right, but together they are what makes Rostrum such a fun and rewarding place to work.  The Ensome team is a tight-knit, talented group with a shared vision of delivering consistently great results for our clients, as well as ensuring the agency is a fun, inclusive, challenging place to work and develop a rewarding career."
+    },
+    "blog": {
+        "title":"Ensome Blog"
+    },
+    "contacts": {
+        "title":"Contact information",
+        "subtitle":"Fill up the form and our Team will get back to you with 25 hours."
+    },
+    "benefits": {
+        "title":"The benefits of Ensome"
+    },
+    "choose": {
+        "title":"Why choose us?"
+    },
+    "num": {
+        "title":"Ensome in numbers"
+    },
+    "pricing": {
+        "title":"Our Pricing" 
+    },
+    "solutions": {
+        "title":"Our solutions" 
+    },
+    "info": {
+        "title":"The newest business analytics platform", 
+        "text":"Ensome transforms business by putting data to work for everyone. Ensome’s low-code data app platform goes beyond traditional business intelligence and analytics to enable anyone to create data apps to power any action in their business, right where work gets done."
+    },
+    "info1": {
+        "title":"Radically new solutions for data", 
+        "text":"It’s important to understand that the DDP approach facilitates transformation by decoupling digital business transformation from full IT transformation, liberating data from core systems such like ERP and CRM. The DDP architecture creates more modular interfaces between systems and adopts cloud infrastructure for speed and agility."
+    },
+    "needHelp": {
+        "title":"Do you need help?", 
+        "text":"Left questions? Contacts us now for a free consultation and free trial!"
+    }
+
+}
+
+
+
+
+
+
+
