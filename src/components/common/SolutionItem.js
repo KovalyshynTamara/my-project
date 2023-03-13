@@ -12,7 +12,7 @@ function SolutionsItem() {
                         <p>{solutionsItem.subText1}</p>
                         <p>{solutionsItem.subText2}</p>
                     </div>
-                    <div>
+                    <div className='sol'>
                         <img src={image} alt=""/>
                     </div>
                     

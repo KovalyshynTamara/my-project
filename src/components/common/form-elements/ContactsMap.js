@@ -7,7 +7,6 @@ import { iconPerson } from '../Icon';
 
 function ContactsMap() {
     const position = [32.2929387654277, -90.21440669814707]
-    // const size = [40,50]
     return (
          <MapContainer center={[32.2929387654277, -90.21440669814707]} zoom={12} scrollWheelZoom={true}>
             <TileLayer

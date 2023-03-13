@@ -29,22 +29,6 @@ function Blog() {
         })
     }, [])
 
-    // const handlerPrevPage = () => {
-    //     if (page === 1) {
-    //         return false
-    //     }
-    //     setPage(page - 1)
-    // }
-    // const handlerNextPage = () => {
-    //     if (page === total) {
-    //         return false
-    //     }
-    //     setPage(page + 1)
-    // }
-
-
-
-
     return (
             <section id="blog">
                 <div className="pt"></div>

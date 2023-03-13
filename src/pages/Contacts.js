@@ -18,8 +18,7 @@ function Contacts() {
                 </div>
                 <FeedbackForm />  
             </div>
-            <div id="map" style={{ height: '500px' }}>
-             
+                <div id="map" style={{ height: '500px' }}>
                 <ContactsMap/>
             </div>
         </section>

@@ -18,6 +18,9 @@ export default function () {
         if (name === '') {
             errors.push('Enter your name.')
         }
+        if (theme === '') {
+            errors.push('Enter your theme.')
+        }
         if (email === '') {
             errors.push('Enter your email.')
         } else {
@@ -69,7 +72,7 @@ export default function () {
                     setEmail(val)
                 }}
             />
-             <TextInput label="Theme" value={theme} 
+             <TextInput label="Theme" value={theme} required
                 setInputValue={(val) => {
                     setTheme(val)
                 }}

@@ -2,31 +2,32 @@
     {
         "title":"Machine learning",
         "text":"Machine learning is a modern innovation that has enhanced many industrial and professional processes as well as our daily lives. Consider neural networks, the software used for training algorithms that can discover patterns within information that humans may miss.",
-        "iconName":"brain"
+        "icon1":"brain"
     },
     {
         "title":"Embed analytics",
         "text":"Embedded analytics is the integration of analytical capabilities and data visualizations into another software application. Embedding real-time reports and dashboards allows the user to analyze the data held within the software application into which the analytics platform is embedded.",
-        "iconName":"trending"
-    },
-    {
-        "title":"Access control",
-        "text":"Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent.Data Security is one of our best facilities. Allows for your files to be safer.",
-        "iconName":"key"
-    },
-    {
-        "title":"Data analytics",
-        "text":"",
-        "iconName":"data_area"
-    },
-    {
-        "title":"Big data consulting",
-        "text":"",
-        "iconName":"data_pie"
+        "icon1":"trending"
     },
     {
         "title":"Artificial intelligence",
-        "text":"",
-        "iconName":"bot"
+        "text":"Artificial intelligence is the simulation of human intelligence processes by machines, especially computer systems. Specific applications of AI include expert systems, natural language processing, speech recognition and machine vision.",
+        "icon1":"bot"
+    },
+    {
+        "title":"Data analytics",
+        "text":"Data analysis is a process of inspecting, cleansing, transforming, and modeling data with the goal of discovering useful information, informing conclusions, and supporting decision-making.",
+        "icon1":"data_area"
+    },
+     {
+        "title":"Access control",
+        "text":"Access is given 24 hours a full morning to night and meet again in the morning, giving you comfort when you need data when urgent.Data Security is one of our best facilities. Allows for your files to be safer.",
+        "icon1":"key"
+    },
+    {
+        "title":"Big data consulting",
+        "text":"Get structured and accurate datasets for any use case in a click.  When a dataset isn’t available in Bright Data’s marketplace, custom datasets are built to suit specific business needs.",
+        "icon1":"data_pie"
     }
+
 ]

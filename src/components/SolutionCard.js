@@ -25,7 +25,22 @@ function SolutionCard() {
         dots:true,
         nextArrow:<SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-        responsive:[]
+         responsive: [
+            {
+            breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                }
+            },
+            {
+            breakpoint: 500,
+                settings: {
+                    slidesToShow: 1,
+                    dots: false,
+
+                }
+            }
+         ]
     }
     return (
         <section id='our_solutions' className="blue-bg">

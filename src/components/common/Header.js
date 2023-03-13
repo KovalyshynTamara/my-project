@@ -8,9 +8,9 @@ function Header() {
     const overlay = location.pathname === '/'
         ? <div className="overlay">
             <div className="container">
-                <a href="#home" className="logo">
+                <Link to={'/'} Home className="logo">
                 <img src={logo} alt="Logo"/>
-                </a>
+                </Link>
                 <nav className="main-menu">
                 <ul>
                     <li><Link to={'/'}>Home</Link></li>
@@ -22,13 +22,17 @@ function Header() {
                     <li><Link to={'/team'}>Our Team</Link></li>
                 </ul>
                 </nav>
+
+                <div class="hmb-wrap" id=".hmb-wrap">
+                    <button type="button" id="hamb-btn" class="hamburger" onClick={toggleMenu}><span></span></button>
+                </div>
             </div>
         </div>
         : <div className="overlay">
             <div className="container small">
-                <a href="#home" className="logo">
+                <Link to={'/'} className="logo">
                 <img src={logo} alt="Logo"/>
-                </a>
+                </Link>
                 <nav className="main-menu">
                 <ul>
                     <li><Link to={'/'}>Home</Link></li>
@@ -40,9 +44,11 @@ function Header() {
                     <li><Link to={'/team'}>Our Team</Link></li>
                 </ul>
                 </nav>
+                <div class="hmb-wrap" id=".hmb-wrap">
+                    <button type="button" id="hamb-btn" class="hamburger"  onClick={toggleMenu}><span></span></button>
+                </div>
             </div>
         </div>
-        // const headerClass = 'header'+(location.pathname !== '/' ? 'scroll' : '')
 
     return (
         <header id='header'>
@@ -58,4 +64,19 @@ document.addEventListener('scroll', function(){
         document.getElementById('header').classList.remove('scroll');
    }
 })
+
+// document.getElementById('mobile-menu').addEventListener('click', function () {
+//     document.getElementById('mobile-menu').classList.add('open');
+// })
+// document.getElementById("hamb-btn").addEventListener('click', function () {
+//     document.getElementById("hamb-btn").classList.add('active');
+// })
+// document.getElementById("shadow").addEventListener('click', function () {
+//     document.getElementById("shadow").classList.add('show');
+// })
+function toggleMenu(){
+    document.getElementById("mobile-menu").classList.toggle("open")
+    document.getElementById("hamb-btn").classList.toggle("active")
+    document.getElementById("shadow").classList.toggle("show")
+}
 export default Header
