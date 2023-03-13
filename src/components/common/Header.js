@@ -1,7 +1,7 @@
 import logo from './../../assets/imgs/logo_white.png'
 import { Link } from 'react-router-dom'
 import { useLocation } from "react-router-dom";
-import { devHome,prodHome } from "./config";
+import { devHome,prodHome } from './../../config';
 
 
 
