@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/KovalyshynTamara/my-project/static/css/main.9b49c1b1.css",
+    "main.js": "/KovalyshynTamara/my-project/static/js/main.0bf7df95.js",
+    "static/media/choose.png": "/KovalyshynTamara/my-project/static/media/choose.038bb1b8b038c73e7779.png",
+    "static/media/team-img.png": "/KovalyshynTamara/my-project/static/media/team-img.ccf5f393700f6b4e2f46.png",
+    "static/media/s4-1.png": "/KovalyshynTamara/my-project/static/media/s4-1.3297ec35ae08d891c57c.png",
+    "static/media/imgAbout2.png": "/KovalyshynTamara/my-project/static/media/imgAbout2.cc8256b20b281467ae22.png",
+    "static/media/imgAbout1.png": "/KovalyshynTamara/my-project/static/media/imgAbout1.b2497efd0d00c5279864.png",
+    "static/media/s1-block2.png": "/KovalyshynTamara/my-project/static/media/s1-block2.a5b916a437c15111519e.png",
+    "static/media/s1-block1.png": "/KovalyshynTamara/my-project/static/media/s1-block1.8bf6aac13e4fbe1b40ff.png",
+    "static/media/section1.png": "/KovalyshynTamara/my-project/static/media/section1.28ba49d64acf6e8e7f1d.png",
+    "static/media/solution-1.png": "/KovalyshynTamara/my-project/static/media/solution-1.f4dc0cc35844113e1338.png",
+    "static/media/icomoon.svg?999on6": "/KovalyshynTamara/my-project/static/media/icomoon.6230a5306b3d287244f0.svg",
+    "static/media/icomoon.eot?999on6": "/KovalyshynTamara/my-project/static/media/icomoon.71a6b0e0b2df6457f4c3.eot",
+    "static/media/icomoon.woff?999on6": "/KovalyshynTamara/my-project/static/media/icomoon.f6d514ad118848c9e348.woff",
+    "static/media/icomoon.ttf?999on6": "/KovalyshynTamara/my-project/static/media/icomoon.b3c4a0542797c4481ec5.ttf",
+    "index.html": "/KovalyshynTamara/my-project/index.html",
+    "static/media/slick.svg": "/KovalyshynTamara/my-project/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/KovalyshynTamara/my-project/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/KovalyshynTamara/my-project/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/KovalyshynTamara/my-project/static/media/slick.295183786cd8a1389865.woff",
+    "main.9b49c1b1.css.map": "/KovalyshynTamara/my-project/static/css/main.9b49c1b1.css.map",
+    "main.0bf7df95.js.map": "/KovalyshynTamara/my-project/static/js/main.0bf7df95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b49c1b1.css",
+    "static/js/main.0bf7df95.js"
+  ]
+}
