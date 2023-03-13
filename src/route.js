@@ -10,12 +10,12 @@ import OurTeam from "./pages/OurTeam";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 
-
+import { devHome,prodHome } from "./config";
 
 const router = createBrowserRouter([
     
     {
-        path: "/",
+        path: window.location.hostname === 'location' ? devHome : prodHome,
         element: <App/>,
         children: [
             {

@@ -1,11 +1,13 @@
 import logo from './../../assets/imgs/logo_white.png'
 import { Link } from 'react-router-dom'
 import { useLocation } from "react-router-dom";
+import { devHome,prodHome } from "./config";
+
 
 
 function Header() {
     const location = useLocation()
-    const overlay = location.pathname === '/'
+    const overlay = (location.pathname === devHome && window.location.hostname === 'location') || (location.pathname === prodHome && window.location.hostname !== 'location')
         ? <div className="overlay">
             <div className="container">
                 <Link to={'/'} Home className="logo">
