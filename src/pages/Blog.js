@@ -1,28 +1,23 @@
 import BlogItem from "../components/BlogItem"
-
 import blogTitle from './../data/blockTitle.json'
 import { useEffect, useState } from "react"
 import { API_KEY } from "../config"
 import axios from "axios"
 import { toast } from "../helpers"
 
-
 function Blog() {
     const [newsList, setNewsList] = useState([])
     const [total, setTotal] = useState(0)
 
-
-
     console.log(total);
     useEffect(() => {
-        axios.get(`http://api.mediastack.com/v1/news?access_key=${API_KEY}&categories=technology&languages=en`)
+        axios.get(`https://api.mediastack.com/v1/news?access_key=${API_KEY}&categories=technology&languages=en`)
             .then((resp) => {
                 
                 setNewsList(resp.data.data)
                 setTotal(resp.data.pagination.total)
         })
             .catch((resp) => {
-                // debugger
                  toast.danger(resp.data.error.message)
                 
         })
@@ -37,7 +32,6 @@ function Blog() {
                         {newsList.map((itemNews,index) => <BlogItem key={index} item={itemNews} />)}
                     </div>
 
-                        {/* <PartnersItem/> */}
                 </div>
             </section>
     )
