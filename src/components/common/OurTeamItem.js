@@ -5,7 +5,7 @@ function OurTeamItem(props) {
     return (
         <div className="card">
             <div className="img-wrap">
-                <img src={`/imgs/${image}`} alt="Team Member" />
+                <img src={`assets/imgs/${image}`} alt="Team Member" />
             </div>
             <div className="name-wrap">
                 <div className="name">{name}</div> 

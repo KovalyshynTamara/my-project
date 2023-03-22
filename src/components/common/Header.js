@@ -22,8 +22,8 @@ function Header() {
                 </ul>
                 </nav>
 
-                <div class="hmb-wrap" id=".hmb-wrap">
-                    <button type="button" id="hamb-btn" class="hamburger" onClick={toggleMenu}><span></span></button>
+                <div className="hmb-wrap" id=".hmb-wrap">
+                    <button type="button" id="hamb-btn" className="hamburger" onClick={toggleMenu}><span></span></button>
                 </div>
             </div>
         </div>
@@ -43,8 +43,8 @@ function Header() {
                     <li><Link to={'/team'}>Our Team</Link></li>
                 </ul>
                 </nav>
-                <div class="hmb-wrap" id=".hmb-wrap">
-                    <button type="button" id="hamb-btn" class="hamburger"  onClick={toggleMenu}><span></span></button>
+                <div className="hmb-wrap" id=".hmb-wrap">
+                    <button type="button" id="hamb-btn" className="hamburger"  onClick={toggleMenu}><span></span></button>
                 </div>
             </div>
         </div>

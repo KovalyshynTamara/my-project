@@ -7,7 +7,6 @@ function SampleNextArrow(props) {
       <button type='button' onClick={onClick} id='btn-prev' ><span className='icon-arrow_right'></span></button>
   );
 }
-
 function SamplePrevArrow(props) {
   const { onClick } = props;
   return (
@@ -58,12 +57,13 @@ function PartnersItem() {
             <Slider {...setings}>
                 {partner.map((item,index) => {
                     return (
-                        <img src={`/imgs/${item.img}`} alt="Logo" key={index} />  
+                        <img src={`assets/imgs/${item.img}`} alt="Logo" key={index} />  
                     )
                 })}
             </Slider>
     </div>        
     )
-
 }
 export default PartnersItem
+
+// assets/imgs/${image}

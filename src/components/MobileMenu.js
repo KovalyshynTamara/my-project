@@ -4,7 +4,7 @@ function MobileMenu() {
     return (
         <div>
             <div id="mobile-menu">
-                <nav class="mobile-menu-list">
+                <nav className="mobile-menu-list">
                 <ul  itemscope itemtype="http://schema.org/SiteNavigationElement">
                     <li><Link to={'/'} itemprop="url" >Home</Link></li>
                     <li><Link to={'/solutions'} itemprop="url" >Solutions</Link></li>

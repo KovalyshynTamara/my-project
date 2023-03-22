@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import { API_KEY } from "../config"
 import axios from "axios"
 import { toast } from "../helpers"
+import PartnersItem from "../components/PartnersItem"
 
 function Blog() {
     const [newsList, setNewsList] = useState([])
@@ -31,7 +32,7 @@ function Blog() {
                     <div className="blog-wrap">
                         {newsList.map((itemNews,index) => <BlogItem key={index} item={itemNews} />)}
                     </div>
-
+                    <PartnersItem/>
                 </div>
             </section>
     )
