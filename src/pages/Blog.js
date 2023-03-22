@@ -1,11 +1,10 @@
 import BlogItem from "../components/BlogItem"
-import PartnersItem from "../components/PartnersItem"
+
 import blogTitle from './../data/blockTitle.json'
 import { useEffect, useState } from "react"
 import { API_KEY } from "../config"
 import axios from "axios"
 import { toast } from "../helpers"
-// import Pagination from "../components/Pagination"
 
 
 function Blog() {
@@ -37,8 +36,8 @@ function Blog() {
                     <div className="blog-wrap">
                         {newsList.map((itemNews,index) => <BlogItem key={index} item={itemNews} />)}
                     </div>
-                        {/* <Pagination total={total} page={page} gotoHandler={ (newPage)=>{setPage(newPage)}} /> */}
-                        <PartnersItem/>
+
+                        {/* <PartnersItem/> */}
                 </div>
             </section>
     )

@@ -4,10 +4,6 @@ import { formatDate } from "../helpers"
 function BlogItem(props) {
   const { item } = props
   
-  //  const image = item.image
-  //       ? <img src={item.image} alt={item.title} onError={(e) => e.target.src = '/assets/imgs/no-image.png'} />
-  //       :<img src="'/assets/imgs/no-image.png'" alt={item.title} />
-
    const image = item.image
         ? <img src={item.image} alt={item.title} onError={(e) => e.target.src = '/assets/imgs/no-image.png'} />
         :<img src="/assets/imgs/no-image.png" alt={item.title} />

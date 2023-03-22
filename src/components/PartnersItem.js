@@ -58,7 +58,7 @@ function PartnersItem() {
             <Slider {...setings}>
                 {partner.map((item,index) => {
                     return (
-                        <img src={`/../assets/imgs/${item.img}`} alt="Logo" key={index} />  
+                        <img src={`/imgs/${item.img}`} alt="Logo" key={index} />  
                     )
                 })}
             </Slider>

@@ -6,7 +6,7 @@ function NeedHelp() {
             <div className="container">
                 <h2>{blockTitle.needHelp.title}</h2>
                 <p>{blockTitle.needHelp.text}</p>
-                <Link to={'/contacts'} className="btn">Contact Us</Link>
+                <Link to={'my-project/contacts'} className="btn">Contact Us</Link>
             </div>
             
         </section>

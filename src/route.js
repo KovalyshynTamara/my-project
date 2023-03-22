@@ -1,6 +1,5 @@
 import {  createBrowserRouter } from "react-router-dom";
 import App from "./App";
-// import About from './pages/About';
 import Home from "./pages/Home";
 import Contacts from "./pages/Contacts";
 import NotFound from "./pages/NotFound";
@@ -10,12 +9,10 @@ import OurTeam from "./pages/OurTeam";
 import AboutUs from "./pages/AboutUs";
 import Services from "./pages/Services";
 
-import { devHome,prodHome } from "./config";
-
 const router = createBrowserRouter([
     
     {
-        path: window.location.hostname === 'location' ? devHome : prodHome,
+        path: '/',
         element: <App/>,
         children: [
             {

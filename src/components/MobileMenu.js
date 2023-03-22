@@ -6,13 +6,13 @@ function MobileMenu() {
             <div id="mobile-menu">
                 <nav class="mobile-menu-list">
                 <ul  itemscope itemtype="http://schema.org/SiteNavigationElement">
-                    <li><Link to={'/'} itemprop="url" >Home</Link></li>
-                    <li><Link to={'/solutions'} itemprop="url" >Solutions</Link></li>
-                    <li><Link to={'/services'} itemprop="url" >Services</Link></li>
-                    <li><Link to={'/about'} itemprop="url" >About Us</Link></li>
-                    <li><Link to={'/blog'} itemprop="url" >Blog</Link></li>
-                    <li><Link to={'/contacts'} itemprop="url" >Contacts</Link></li>
-                    <li><Link to={'/team'} itemprop="url" >Our Team</Link></li>
+                    <li><Link to={'/my-project/'} itemprop="url" >Home</Link></li>
+                    <li><Link to={'/my-project/solutions'} itemprop="url" >Solutions</Link></li>
+                    <li><Link to={'/my-project/services'} itemprop="url" >Services</Link></li>
+                    <li><Link to={'/my-project/about'} itemprop="url" >About Us</Link></li>
+                    <li><Link to={'/my-project/blog'} itemprop="url" >Blog</Link></li>
+                    <li><Link to={'/my-project/contacts'} itemprop="url" >Contacts</Link></li>
+                    <li><Link to={'/my-project/team'} itemprop="url" >Our Team</Link></li>
                 </ul>
                 </nav>
                
