@@ -11,7 +11,7 @@ function SecondSection() {
         <div className="info">
               <h2 className="section-title">{blockTitle.info.title}</h2>
           <p>{blockTitle.info.text}</p>
-          <Link to={'/my-project/services'} className="btn">Learn more</Link>
+          <Link to={'/services'} className="btn">Learn more</Link>
         </div>
         <div className="photo">
           <img src={im1} alt=""/>
@@ -22,7 +22,7 @@ function SecondSection() {
         <div className="info">
           <h2 className="section-title">{blockTitle.info1.title}</h2>
           <p>{blockTitle.info1.text}</p>
-          <Link to={'/my-project/solutions'} className="btn">Learn more</Link>
+          <Link to={'/solutions'} className="btn">Learn more</Link>
         </div>
         <div className="photo">
           <img src={im2} alt=""/>

@@ -7,18 +7,18 @@ function Header() {
     const overlay = location.pathname === '/'
         ? <div className="overlay">
             <div className="container">
-                <Link to={'/my-project/'} Home className="logo">
+                <Link to={'/'} Home className="logo">
                 <img src={logo} alt="Logo"/>
                 </Link>
                 <nav className="main-menu">
                 <ul>
-                    <li><Link to={'/my-project/'}>Home</Link></li>
-                    <li><Link to={'/my-project/solutions'}>Solutions</Link></li>
-                    <li><Link to={'/my-project/services'}>Services</Link></li>
-                    <li><Link to={'/my-project/about'}>About Us</Link></li>
-                    <li><Link to={'/my-project/blog'}>Blog</Link></li>
-                    <li><Link to={'/my-project/contacts'}>Contacts</Link></li>
-                    <li><Link to={'/my-project//team'}>Our Team</Link></li>
+                    <li><Link to={'/'}>Home</Link></li>
+                    <li><Link to={'/solutions'}>Solutions</Link></li>
+                    <li><Link to={'/services'}>Services</Link></li>
+                    <li><Link to={'/about'}>About Us</Link></li>
+                    <li><Link to={'/blog'}>Blog</Link></li>
+                    <li><Link to={'/contacts'}>Contacts</Link></li>
+                    <li><Link to={'//team'}>Our Team</Link></li>
                 </ul>
                 </nav>
 
@@ -29,18 +29,18 @@ function Header() {
         </div>
         : <div className="overlay">
             <div className="container small">
-                <Link to={'/my-project/'} className="logo">
+                <Link to={'/'} className="logo">
                 <img src={logo} alt="Logo"/>
                 </Link>
                 <nav className="main-menu">
                 <ul>
-                    <li><Link to={'/my-project/'}>Home</Link></li>
-                    <li><Link to={'/my-project/solutions'}>Solutions</Link></li>
-                    <li><Link to={'/my-project/services'}>Services</Link></li>
-                    <li><Link to={'/my-project/about'}>About Us</Link></li>
-                    <li><Link to={'/my-project/blog'}>Blog</Link></li>
-                    <li><Link to={'/my-project/contacts'}>Contacts</Link></li>
-                    <li><Link to={'/my-project/team'}>Our Team</Link></li>
+                    <li><Link to={'/'}>Home</Link></li>
+                    <li><Link to={'/solutions'}>Solutions</Link></li>
+                    <li><Link to={'/services'}>Services</Link></li>
+                    <li><Link to={'/about'}>About Us</Link></li>
+                    <li><Link to={'/blog'}>Blog</Link></li>
+                    <li><Link to={'/contacts'}>Contacts</Link></li>
+                    <li><Link to={'/team'}>Our Team</Link></li>
                 </ul>
                 </nav>
                 <div class="hmb-wrap" id=".hmb-wrap">
